@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aniwave</title>
+<style>
+  body{
+    padding-bottom:100px;
+    background-color: #050505;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 0;
+  }
+  .channel-logo-div{
+    display: flex;
+    justify-content:center;
+    height: 60px;
+    margin-top: 30px;
+  }
+  .elements{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .elements li{
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .elements li a{
+    color:silver;
+    text-decoration: none;
+  }
+  .elements li a:hover{
+    color:#8c5ece;
+  }
+  .bg-img{
+    background: url(aniwave-photos/bg-index2.jpg);
+    width: 1fr;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center top ;
+    min-height: 500px;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .search-div{
+    display: flex;
+    justify-content: center;
+  }
+  .search-div .search-logo{
+    width: 28px;
+    background-color: rgb(50, 49, 49);;
+    border: none;
+    border-radius: 4px;
+    margin-left: -7px;
+  }
+  .search-div .search-logo img{
+    width: 15px;
+  }
+  .search-div .search{
+    width: 480px;
+    height: 30px;
+    color:azure;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(50, 49, 49);
+    border:none;
+    border-radius: 4px;
+    max-width:480px;
+    outline: none;
+  }
+  .home-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .home-img img{
+    width:440px;
+  }
+  .home-div{
+    display: flex;   
+  }
+  .home-div .home{
+    background-color: #fbc32e;
+    padding:10px 15px 10px 15px;
+    border-radius: 40px;
+    margin-top: -47px;
+    border: none;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .home-div .home a{
+    text-decoration: none;
+    color:black;
+  }
+  .home-div .home img{
+    width: 30px;
+    vertical-align: middle;
+  }
+  .home-div .home:hover{
+    background-color: #ffb700;
+  }
+</style>
+</head>
+<body>
+<div class="channel-logo-div">
+  <img src="aniwave-photos/logo3.png">
+</div>
+<ul class="elements">
+  <li><a href="https://aniwave.to/home">Home</a></li>
+  <li><a href="https://aniwave.to/trending">Trending</a></li>
+  <li><a href="https://aniwave.to/newest">New Release</a></li>
+  <li><a href="https://aniwave.to/updated">Recent Update</a></li>
+</ul>
+<div class="bg-img">
+<div class="search-div">
+  <input class="search" type="text" placeholder="Search anime...">
+  <button class="search-logo">
+    <img src="aniwave-photos/icons8-search.svg">
+  </button>
+</div>
+<div class="home-img">
+  <img src="aniwave-photos/bg-index-top1.png">
+  <div class="home-div">
+    
+    <button class="home">
+      <a href="https://aniwave.to/home">Go to homepage <img src="aniwave-photos/icons8-go-back-26.png">
+    </a>
+    </button>
+  </div>
+  </div>
+</div>
+</body>
+</html>
